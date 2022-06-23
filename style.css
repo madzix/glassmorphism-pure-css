@@ -1,0 +1,65 @@
+* {
+    margin: o;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body{
+    /* background-image: url('pexels-mudassir-ali-3970396.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.glass {
+    position: absolute;
+    top: 20%;
+    left:20%;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, .1);
+    padding:10px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    backdrop-filter: blur(30px);
+    z-index: 100;
+    background-clip: padding-box;
+    border-radius: 30% 70% 70% 30% / 30% 33% 67% 70%;
+}
+
+video {
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+.shape-1  {
+    position: absolute;
+    left: 250px;
+    bottom: -160px;
+    width: 400px;
+    height: 500px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 17% 83% 64% 36% / 57% 24% 76% 43%;
+    transform: translate(-50%, -50%);
+}
+
+.shape-2  {
+    position: absolute;
+    right: -200px;
+    top: 300px;
+    bottom: -20px;
+    width: 400px;
+    height: 500px;
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 5%, rgba(70,252,107,1) 100%);
+    border-radius: 58% 42% 31% 69% / 14% 26% 74% 86% ;
+    background-clip: padding-box;
+    transform: translate(-50%, -50%);
+}  
+
+
